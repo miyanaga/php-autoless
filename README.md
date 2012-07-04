@@ -36,3 +36,9 @@ http://your.host/autoless/css/example.css
 When you access to compiled CSS, /css/example.css and /css/example.min.css are generated as files.
 
 Just put the file to same path on another web server, you can use the CSS without changing HTML even if PHP or mod_rewrite not supported.
+
+## CSS File Locking
+
+Generated CSS files are locked as remove writable bits to avoid reversion on purpose.
+
+Not to lock, append &lock=off|no|false|0 to compile.php. In the case of using mod_rewrite, change the RewriteRule in your .htaccess.
