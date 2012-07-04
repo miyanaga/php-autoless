@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteRule \.css$ /autoless/compile.php?css=%{REQUEST_URI} [L]
