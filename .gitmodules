@@ -1,4 +1,0 @@
-[submodule "autoless/lessphp"]
-	path = autoless/lessphp
-	url = git://github.com/leafo/lessphp.git
-	tag = v0.3.5
