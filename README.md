@@ -8,7 +8,7 @@ PHP script to compile LESS file automatically with phpless for development purpo
 Put autoless directory to your document root and prepare /css/example.less.
 
 <pre>
-http://your.host/autoless/compile.css?css=/css/example.css
+http://your.host/autoless/compile.php?css=/css/example.css
 </pre>
 
 This URL returns compiled CSS from /css/example.less.
